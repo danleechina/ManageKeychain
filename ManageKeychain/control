@@ -1,0 +1,8 @@
+Package: com.danlee.ManageKeyChain
+Name: ManageKeyChain
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: An awesome application!
+Maintainer: Dan Lee
+Author: Dan Lee
+Section: Utilities

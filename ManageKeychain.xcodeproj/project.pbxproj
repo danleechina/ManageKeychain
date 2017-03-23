@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3702184F1E836316005AB977 /* DLManageKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 3702184E1E836316005AB977 /* DLManageKeychain.m */; };
+		376B348C1E83BAC400A4177F /* DLTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 376B348B1E83BAC400A4177F /* DLTableViewCell.m */; };
+		3770AA2A1E8292BA00CD14D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3770AA291E8292BA00CD14D5 /* main.m */; };
+		3770AA491E8293F900CD14D5 /* DLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3770AA401E8293F900CD14D5 /* DLAppDelegate.m */; };
+		3770AA4A1E8293F900CD14D5 /* DLRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3770AA421E8293F900CD14D5 /* DLRootViewController.m */; };
+		3770AA4B1E8293F900CD14D5 /* DLDumpEntitlementsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3770AA441E8293F900CD14D5 /* DLDumpEntitlementsViewController.m */; };
+		3770AA4C1E8293F900CD14D5 /* DLKeychainItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3770AA461E8293F900CD14D5 /* DLKeychainItemViewController.m */; };
+		3770AA4D1E8293F900CD14D5 /* DLKeychainListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3770AA481E8293F900CD14D5 /* DLKeychainListViewController.m */; };
+		3770AA541E82967D00CD14D5 /* DLSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3770AA531E82967D00CD14D5 /* DLSearchViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3702184D1E836316005AB977 /* DLManageKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLManageKeychain.h; sourceTree = "<group>"; };
+		3702184E1E836316005AB977 /* DLManageKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLManageKeychain.m; sourceTree = "<group>"; };
+		376B348A1E83BAC400A4177F /* DLTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLTableViewCell.h; sourceTree = "<group>"; };
+		376B348B1E83BAC400A4177F /* DLTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLTableViewCell.m; sourceTree = "<group>"; };
+		3770AA251E8292BA00CD14D5 /* ManageKeychain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ManageKeychain.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3770AA291E8292BA00CD14D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3770AA3F1E8293F900CD14D5 /* DLAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLAppDelegate.h; sourceTree = "<group>"; };
+		3770AA401E8293F900CD14D5 /* DLAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLAppDelegate.m; sourceTree = "<group>"; };
+		3770AA411E8293F900CD14D5 /* DLRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLRootViewController.h; sourceTree = "<group>"; };
+		3770AA421E8293F900CD14D5 /* DLRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLRootViewController.m; sourceTree = "<group>"; };
+		3770AA431E8293F900CD14D5 /* DLDumpEntitlementsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLDumpEntitlementsViewController.h; sourceTree = "<group>"; };
+		3770AA441E8293F900CD14D5 /* DLDumpEntitlementsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLDumpEntitlementsViewController.m; sourceTree = "<group>"; };
+		3770AA451E8293F900CD14D5 /* DLKeychainItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLKeychainItemViewController.h; sourceTree = "<group>"; };
+		3770AA461E8293F900CD14D5 /* DLKeychainItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLKeychainItemViewController.m; sourceTree = "<group>"; };
+		3770AA471E8293F900CD14D5 /* DLKeychainListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLKeychainListViewController.h; sourceTree = "<group>"; };
+		3770AA481E8293F900CD14D5 /* DLKeychainListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLKeychainListViewController.m; sourceTree = "<group>"; };
+		3770AA4E1E8294A100CD14D5 /* ManageKeychain.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ManageKeychain.pch; sourceTree = "<group>"; };
+		3770AA521E82967D00CD14D5 /* DLSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLSearchViewController.h; sourceTree = "<group>"; };
+		3770AA531E82967D00CD14D5 /* DLSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLSearchViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3770AA221E8292BA00CD14D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3770AA1C1E8292BA00CD14D5 = {
+			isa = PBXGroup;
+			children = (
+				3770AA271E8292BA00CD14D5 /* ManageKeychain */,
+				3770AA261E8292BA00CD14D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3770AA261E8292BA00CD14D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3770AA251E8292BA00CD14D5 /* ManageKeychain.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3770AA271E8292BA00CD14D5 /* ManageKeychain */ = {
+			isa = PBXGroup;
+			children = (
+				3770AA3F1E8293F900CD14D5 /* DLAppDelegate.h */,
+				3770AA401E8293F900CD14D5 /* DLAppDelegate.m */,
+				3770AA411E8293F900CD14D5 /* DLRootViewController.h */,
+				3770AA421E8293F900CD14D5 /* DLRootViewController.m */,
+				3770AA431E8293F900CD14D5 /* DLDumpEntitlementsViewController.h */,
+				3770AA441E8293F900CD14D5 /* DLDumpEntitlementsViewController.m */,
+				3770AA471E8293F900CD14D5 /* DLKeychainListViewController.h */,
+				3770AA481E8293F900CD14D5 /* DLKeychainListViewController.m */,
+				3770AA451E8293F900CD14D5 /* DLKeychainItemViewController.h */,
+				3770AA461E8293F900CD14D5 /* DLKeychainItemViewController.m */,
+				3770AA291E8292BA00CD14D5 /* main.m */,
+				3770AA4E1E8294A100CD14D5 /* ManageKeychain.pch */,
+				3770AA521E82967D00CD14D5 /* DLSearchViewController.h */,
+				3770AA531E82967D00CD14D5 /* DLSearchViewController.m */,
+				3702184D1E836316005AB977 /* DLManageKeychain.h */,
+				3702184E1E836316005AB977 /* DLManageKeychain.m */,
+				376B348A1E83BAC400A4177F /* DLTableViewCell.h */,
+				376B348B1E83BAC400A4177F /* DLTableViewCell.m */,
+			);
+			path = ManageKeychain;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3770AA241E8292BA00CD14D5 /* ManageKeychain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3770AA3C1E8292BA00CD14D5 /* Build configuration list for PBXNativeTarget "ManageKeychain" */;
+			buildPhases = (
+				3770AA211E8292BA00CD14D5 /* Sources */,
+				3770AA221E8292BA00CD14D5 /* Frameworks */,
+				3770AA231E8292BA00CD14D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ManageKeychain;
+			productName = ManageKeychain;
+			productReference = 3770AA251E8292BA00CD14D5 /* ManageKeychain.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3770AA1D1E8292BA00CD14D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Dan Lee";
+				TargetAttributes = {
+					3770AA241E8292BA00CD14D5 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3770AA201E8292BA00CD14D5 /* Build configuration list for PBXProject "ManageKeychain" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3770AA1C1E8292BA00CD14D5;
+			productRefGroup = 3770AA261E8292BA00CD14D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3770AA241E8292BA00CD14D5 /* ManageKeychain */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3770AA231E8292BA00CD14D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3770AA211E8292BA00CD14D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3770AA541E82967D00CD14D5 /* DLSearchViewController.m in Sources */,
+				3770AA4D1E8293F900CD14D5 /* DLKeychainListViewController.m in Sources */,
+				3702184F1E836316005AB977 /* DLManageKeychain.m in Sources */,
+				3770AA4C1E8293F900CD14D5 /* DLKeychainItemViewController.m in Sources */,
+				3770AA4B1E8293F900CD14D5 /* DLDumpEntitlementsViewController.m in Sources */,
+				3770AA491E8293F900CD14D5 /* DLAppDelegate.m in Sources */,
+				3770AA2A1E8292BA00CD14D5 /* main.m in Sources */,
+				376B348C1E83BAC400A4177F /* DLTableViewCell.m in Sources */,
+				3770AA4A1E8293F900CD14D5 /* DLRootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3770AA3A1E8292BA00CD14D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3770AA3B1E8292BA00CD14D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3770AA3D1E8292BA00CD14D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ManageKeychain/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.danlee.ManageKeychain;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3770AA3E1E8292BA00CD14D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ManageKeychain/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.danlee.ManageKeychain;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3770AA201E8292BA00CD14D5 /* Build configuration list for PBXProject "ManageKeychain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3770AA3A1E8292BA00CD14D5 /* Debug */,
+				3770AA3B1E8292BA00CD14D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3770AA3C1E8292BA00CD14D5 /* Build configuration list for PBXNativeTarget "ManageKeychain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3770AA3D1E8292BA00CD14D5 /* Debug */,
+				3770AA3E1E8292BA00CD14D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3770AA1D1E8292BA00CD14D5 /* Project object */;
+}
